@@ -6,6 +6,7 @@ nav li {
    display: inline;
 }
 
-nav a {
+nav a {a
    text-transform: uppercase; 
+   color: #000000; 
 }

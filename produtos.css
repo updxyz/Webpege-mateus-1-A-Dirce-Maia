@@ -4,8 +4,8 @@ hearder {
 }
 
 .caixa { 
+   position: relative;
    width: 940px;
-
 }
 
 nav {

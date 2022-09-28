@@ -2,6 +2,12 @@ hearder {
    background: #BBBBBB;
 }
 
+nav {
+   position: absolute
+   top: 0;
+   right: 0;
+}
+
 nav li {
    display: inline;
    margir: 0 0 0 15px;

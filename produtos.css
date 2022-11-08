@@ -1,38 +1,273 @@
-hearder { 
-   background: #BBBBBB;
-  
+header {
+    width: 980px;
+    margin: auto;
 }
 
-.caixa { 
-   position: relative;
-   width: 940px;
-   margin: 0 auto;
+.caixa {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+ouvinte {
+2
+   fundo : #BBBBBB ;
+3
+ouvinte {
+2
+   fundo : #BBBBBB ;
+3
+  
+4
+}
+5
+​
+6
+.caixa {
+7
+   posição : relativa ;
+8
+   largura : 940px ;
+9
+   margem : 0  automático ;
+10
+}
+11
+​
+12
+navegação {
+13
+   posição : absoluta
+14
+   topo : 110px ;
+15
+   direita : 0 ;
+16
+}
+17
+​
+18
+navegue  { _
+19
+    posição : absoluta ;
+20ouvinte {
+2
+   fundo : #BBBBBB ;
+3
+  
+4
+}
+5
+​
+6
+.caixa {
+7
+   posição : relativa ;
+8
+   largura : 940px ;
+9
+   margem : 0  automático ;
+10
+}
+11
+​
+12
+navegação {
+13
+   posição : absoluta
+14
+   topo : 110px ;
+15
+   direita : 0 ;
+16
+}
+17
+​
+18
+navegue  { _
+19
+    posição : absoluta ;
+20
+    topo : 0 ;
+21
+    direita : 0 ;
+22
+}
+23
+​
+24
+}
+25
+​
+26
+nav  li {
+27
+   exibição : em linha ;
+28
+   margir : 0  0  0  15px ;
+29
+}
+30
+​
+31
+navegue  a { a
+32
+   transformação de texto : maiúsculas ;
+33
+   cor : #000000 ;
+34
+   peso da fonte : bold ;
+35
+   tamanho da fonte : 22px ;
+36
+   text-decoratin : none ;
+    topo : 0 ;
+21
+    direita : 0 ;
+22
+}
+23
+​
+24
+}
+25
+​
+26
+nav  li {
+27
+   exibição : em linha ;
+28
+   margir : 0  0  0  15px ;
+29
+}
+30
+​
+31
+navegue  a { a
+32
+   transformação de texto : maiúsculas ;
+33
+   cor : #000000 ;
+34
+   peso da fonte : bold ;
+35
+   tamanho da fonte : 22px ;
+36
+   text-decoratin : none ;  
+4
+}
+5
+​
+6
+.caixa {
+7
+   posição : relativa ;
+8
+   largura : 940px ;
+9
+   margem : 0  automático ;
+10
+}
+11
+​
+12
+navegação {
+13
+   posição : absoluta
+14
+   topo : 110px ;
+15
+   direita : 0 ;
+16
+}
+17
+​
+18
+navegue  { _
+19
+    posição : absoluta ;
+20
+    topo : 0 ;
+21
+    direita : 0 ;
+22
+}
+23
+​
+24
+}
+25
+​
+26
+nav  li {
+27
+   exibição : em linha ;
+28
+   margir : 0  0  0  15px ;
+29
+}
+30
+​
+31
+navegue  a { a
+32
+   transformação de texto : maiúsculas ;
+33
+   cor : #000000 ;
+34
+   peso da fonte : bold ;
+35
+   tamanho da fonte : 22px ;
+36
+   text-decoratin : none ;
+#banner {
+    width: 300px;
 }
 
 nav {
-   position: absolute
-   top: 110px;
-   right: 0;
-}
-
-nav ul {
+    display: inline-block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 100px;
+    right: 20px;
 }
 
+
+nav ul li {
+    display: inline;
+    padding: 5px;
 }
 
-nav li {
-   display: inline;
-   margir: 0 0 0 15px;
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-nav a {a
-   text-transform: uppercase; 
-   color: #000000; 
-   font-weight: bold ;
-   font-size: 22px;
-   text-decoratin: none;
+nav ul li a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+}
+
+#bandeira {
+    width: 100%;
+    margin-top: 100px;
 }
 

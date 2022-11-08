@@ -1,48 +1,62 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+header {
+    width: 980px;
+    margin: auto;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.caixa {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 20px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+#banner {
+    width: 300px;
 }
-body {
-	line-height: 1;
+
+nav {
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 20px;
 }
-ol, ul {
-	list-style: none;
+
+
+nav ul li {
+    display: inline;
+    padding: 5px;
 }
-blockquote, q {
-	quotes: none;
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+nav ul li a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+main {
+    width: 800px;
+    margin: auto;
+}
+
+#bandeira {
+    width: 100%;
+    margin-top: 100px;
 }

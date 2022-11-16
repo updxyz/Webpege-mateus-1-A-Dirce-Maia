@@ -9,8 +9,6 @@ header {
     position: relative;
     border: 3px solid black;
     border-radius: 20px;
-    width:759px;
-    padding:2%;
 }
 ouvinte {
 2
@@ -33,7 +31,8 @@ ouvinte {
    largura : 940px ;
 9
    margem : 0  automático ;
-10
+    width:759px;
+    padding:2%;
 }
 11
 ​

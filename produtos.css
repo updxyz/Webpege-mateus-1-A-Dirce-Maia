@@ -9,6 +9,8 @@ header {
     position: relative;
     border: 3px solid black;
     border-radius: 20px;
+    width:759px;
+    padding:2%;
 }
 ouvinte {
 2
@@ -50,7 +52,7 @@ navegação {
 18
 navegue  { _
 19
-    posição : absoluta ;
+    posição : absoluta ;862
 20ouvinte {
 2
    fundo : #BBBBBB ;
